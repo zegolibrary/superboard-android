@@ -1,1 +1,2 @@
 include ':superboard'
+include ':superboard-sdk'
