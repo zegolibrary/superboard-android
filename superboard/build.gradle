@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':zegosuperboard')
+    implementation project(path: ':superboard-sdk')
 }
