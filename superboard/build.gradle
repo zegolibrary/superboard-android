@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    embed project(path: ':superboard-sdk')
+    embed project(path: ':superboard-sdk', configuration: 'default')
 }
