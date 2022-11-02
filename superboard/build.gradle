@@ -22,15 +22,15 @@ android {
         }
     }
 
-    task downloadSDK(type:Exec) {
-
-        workingDir './'
-        commandLine "python", "download_native_sdk.py", "--sdk_download_url", "http://zego-public.oss-cn-shanghai.aliyuncs.com/Jitpack/Superboard/superboard.zip", "--sdk_zip_root_folder", "release/Library"
-    }
-
-    tasks.withType(JavaCompile) {
-        preBuild.dependsOn 'downloadSDK'
-    }
+//    task downloadSDK(type:Exec) {
+//
+//        workingDir './'
+//        commandLine "python", "download_native_sdk.py", "--sdk_download_url", "http://zego-public.oss-cn-shanghai.aliyuncs.com/Jitpack/Superboard/superboard.zip", "--sdk_zip_root_folder", "release/Library"
+//    }
+//
+//    tasks.withType(JavaCompile) {
+//        preBuild.dependsOn 'downloadSDK'
+//    }
 }
 
 dependencies {
