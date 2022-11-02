@@ -34,6 +34,5 @@ android {
 }
 
 dependencies {
-    api fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.zegolibrary:superboard-android:1.0.3'
+    api fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
 }
